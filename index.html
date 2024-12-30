@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificació de Compte - Banc XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            margin: auto;
+            width: 50%;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificació de Compte</h1>
+        <p>Per protegir la seva seguretat, si us plau, introdueixi la seva informació d'accés:</p>
+        <form action="#">
+            <label for="username">Nom d'usuari:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Contrasenya:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" class="btn">Verificar</button>
+        </form>
+        <p style="color: red; font-size: 12px; margin-top: 20px;">
+            Aquest és un exemple educatiu. No introdueixi informació real.
+        </p>
+    </div>
+</body>
+</html>
